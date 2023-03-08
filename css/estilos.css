@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    
+#contenedor {
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+     
+  }
+
+  #principal {
+    margin-left:500px;
+    margin-right:20px;
+    margin-top:10px;
+  }
+
+  #lateral {
+    position: absolute;
+    width: 250px;
+    top:0px;
+    left: 0px;
+    padding: 50px;
+    margin-top: 10px;
+  }
+
+  ul {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    border: 1px;
+    width: 800px;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 30px 15px 25px 20px;
+    font-weight: bold;
+    color: blue;
+
+}
+
+h2 {
+    font-family: 'Tilt Warp', cursive;
+    font-size: large;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+   }
+h3 {
+    font-family: 'Tilt Warp', cursive;
+    font-size: small;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: blue;
+}
+hr {
+    position:relative;
+    top: 10px;
+    border: none;
+    height: 12px;
+    background: blue;
+    margin-bottom: 90px;
+}
+
+.redonda {
+    width:200px;
+    height:200px;
+    border-radius:150px;
+    margin: auto;
+    
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: medium;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 2;
+}
+
+li {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: medium;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+#demo{
+    color: blue;
+}
+
+img{
+    border:2px solid blue;
+}
+
+.cambiaColor {
+    color:blue;
+}
+
+/* Definimos el color al pasar el mouse por encima */
+.cambiaColor:hover {
+    color:red
+}
+
+article {
+    width: 400px;
+    background: #fff;
+    padding: 20px 20px 0;
+    font-size: 18;
+    max-height: 270px;
+    overflow: hidden;
+    transition: max-height 1s;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+article.abierto{
+    max-height: 1000px;
+}
+
+button {
+    background: #0e0b22;
+    color: #fff;
+    padding: 0.6rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #1e1d25;
+}
